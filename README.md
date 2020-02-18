@@ -7,5 +7,6 @@ Some minor things about K8s.
 To start minikube:
 
 ```bash
-minikube start --memory 6144 --cpus 2
+minikube start --memory 6144 --cpus 2 --bootstrapper=kubeadm
+minikube addons enable ingress
 ```
